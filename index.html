@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Раздатка №2 — Точечные правки | Визуал и видео для бренда</title>
+<style>
+:root{--ink:#1a2330;--muted:#5b6673;--line:#dfe4ea;--bg:#f7f8fa;--card:#fff;--accent:#1a4d8f;--accent2:#0f7b6c;--warn:#b8860b;--warnbg:#fff8e6;--free:#0f7b6c;--freebg:#e6f5f2;--new:#b03030;--pay:#8a6100}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+header{background:var(--accent);color:#fff;padding:32px 24px}
+header .wrap{max-width:1080px;margin:0 auto}
+header .badge{display:inline-block;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.3);padding:4px 12px;border-radius:20px;font-size:13px;font-weight:600}
+header h1{font-size:29px;line-height:1.25;margin:14px 0 10px;font-weight:700}
+header p{font-size:16px;opacity:.92;max-width:780px}
+header .meta{font-size:14px;opacity:.8;margin-top:14px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+main{padding:32px 0 56px}
+section{margin-bottom:44px}
+h2{font-size:22px;margin-bottom:8px;font-weight:700}
+h2 + .lead{color:var(--muted);font-size:15px;margin-bottom:18px}
+h3{font-size:17px;margin:24px 0 10px;font-weight:650}
+h4{font-size:15.5px;margin:0 0 6px;color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px 22px;margin-bottom:16px}
+.alert{border-left:4px solid var(--warn);background:var(--warnbg);border-radius:0 8px 8px 0}
+.alert strong{color:#8a6100}
+.good{border-left:4px solid var(--accent2);background:var(--freebg);border-radius:0 8px 8px 0}
+.good strong{color:#0b5f53}
+.free-badge{display:inline-block;background:var(--freebg);color:var(--free);font-size:11.5px;font-weight:700;padding:3px 9px;border-radius:4px;border:1px solid #bfe3dc;white-space:nowrap}
+.pay-badge{display:inline-block;background:#fdf3dd;color:var(--pay);font-size:11.5px;font-weight:700;padding:3px 9px;border-radius:4px;border:1px solid #ecdcae;white-space:nowrap}
+.new-badge{display:inline-block;background:#fdecec;color:var(--new);font-size:11.5px;font-weight:700;padding:3px 9px;border-radius:4px;border:1px solid #f3c9c9;white-space:nowrap}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:14.5px}
+th{background:#eef1f5;text-align:left;padding:12px 14px;font-weight:650;font-size:13px;color:#3d4753;border-bottom:2px solid var(--line)}
+td{padding:12px 14px;border-bottom:1px solid #eceff2;vertical-align:top}
+tr:last-child td{border-bottom:none}
+tr.pick{background:#f4faf8}
+.mname{font-weight:650}
+.mid{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;color:var(--muted);word-break:break-all;margin-top:2px}
+.price{font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap}
+.tblwrap{overflow-x:auto;border-radius:10px;border:1px solid var(--line);background:var(--card);border-collapse:separate}
+.tblwrap table{border:none}
+ul,ol{margin:10px 0 10px 22px}
+li{margin-bottom:7px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:16px 0}
+.mini{background:var(--card);border:1px solid var(--line);border-radius:9px;padding:16px 18px}
+.mini p{font-size:14px;color:var(--muted)}
+.prompt{background:#f4f6f8;border:1px solid #e2e6eb;border-left:3px solid var(--accent);border-radius:0 7px 7px 0;padding:13px 16px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13.5px;color:#2b3442;margin:12px 0;white-space:pre-wrap;line-height:1.55}
+.prompt-lbl{font-size:13px;font-weight:650;color:var(--accent);margin:16px 0 4px}
+a{color:var(--accent)}
+.check li{list-style:none;position:relative;padding-left:28px;margin-bottom:9px}
+.check li:before{content:"□";position:absolute;left:0;top:-1px;font-size:17px;color:var(--accent2);font-weight:700}
+footer{background:#1f2732;color:#9aa5b1;padding:26px 24px;font-size:13.5px}
+footer .wrap{max-width:1080px;margin:0 auto}
+footer a{color:#8fb4e8}
+@media(max-width:640px){header h1{font-size:23px}main{padding:24px 0 40px}th,td{padding:10px 11px;font-size:13.5px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<span class="badge">Раздаточный материал №2</span>
+<h1>Точечные правки: как не перерисовывать всё заново</h1>
+<p>Четыре техники правки готового изображения, формулировка задачи, проверка результата и типовые ошибки. Под задачи бренда: поправить цвет, швы, логотип, текстуру, фактуру.</p>
+<div class="meta">Занятие 2 · 23 октября 2026 · модели и цены проверены 22 октября 2026</div>
+</div></header>
+
+<main class="wrap">
+
+<section>
+<div class="card alert">
+<strong>Сначала определитесь: какая правка вам нужна.</strong> Ошибка в том, что за один и тот же дефект берутся все способы подряд. Правка всегда одна — но способ зависит от того, что именно нужно сохранить.
+</div>
+</section>
+
+<section>
+<h2>Короткий ответ: какой способ выбрать</h2>
+<p class="lead">Найдите свою задачу в таблице и переходите к разделу с номером.</p>
+<div class="tblwrap"><table>
+<thead><tr><th>Что нужно сделать</th><th>Способ</th><th>Инструмент</th><th>Цена</th></tr></thead>
+<tbody>
+<tr class="pick"><td>Поправить один элемент, не трогая остальное</td><td>1. Правка словами</td><td>FLUX Kontext Pro</td><td><span class="free-badge">бесплатно</span></td></tr>
+<tr class="pick"><td>Гарантировать, что вокруг правки ничего не изменится</td><td>2. Правка маской</td><td>FLUX Fill Pro</td><td>$0.05 за изображение</td></tr>
+<tr class="pick"><td>Повторить изделие в другом цвете, сохранив стиль</td><td>3. По референсам</td><td>FLUX 3 Image, Nano Banana Pro</td><td>от $0.024</td></tr>
+<tr><td>Увеличить разрешение, убрать фон, починить пальцы</td><td>4. Служебные</td><td>Topaz, Bria, CodeFormer</td><td>от $0.018</td></tr>
+<tr><td>Сложная фактура: рельеф, плетёнка, узор</td><td>5. По глубине и контуру</td><td>FLUX Depth Pro, Canny Pro</td><td>средние</td></tr>
+</tbody></table></div>
+</section>
+
+<section>
+<h2>1. Правка словами — начинайте с неё</h2>
+<p class="lead">Самый быстрый способ. Вы описываете словами, что должно измениться, а модель сама находит нужный объект. Рисовать маску не нужно.</p>
+<div class="grid">
+<div class="mini"><h4>Инструмент</h4><p>FLUX Kontext Pro — бесплатно в подборке Try for Free на Replicate. 54 млн запусков, отработанная модель</p></div>
+<div class="mini"><h4>Когда ломается</h4><p>Если правка затрагивает сразу несколько разных объектов или нужно гарантировать неизменность фона</p></div>
+<div class="mini"><h4>Альтернатива</h4><p>FLUX 3 Image — до 10 референсов, новое поколение. Дороже, но работает и с правкой, и с генерацией</p></div>
+</div>
+<p class="prompt-lbl">Пример формулировки для правки цвета:</p>
+<div class="prompt">Измени цвет резинки на носке с чёрного на тёмно-синий в тон основной ткани.
+Остальные элементы изображения оставить без изменений.</div>
+<p class="prompt-lbl">Пример для правки фактуры:</p>
+<div class="prompt">Передний носок имеет заметную сераю катышковую текстуру.
+Замени её на гладкое хлопковое переплетение, соответствующее остальной паре.</div>
+<div class="card good">
+<strong>Правило промпта для правки.</strong> Описывайте только то, что меняется, и явно говорите, что остальное не трогать. Не пересказывайте всю сцену заново — модель решит, что вы просите перегенерировать картинку целиком, и картинка «поедет».
+</div>
+</section>
+
+<section>
+<h2>2. Правка маской — когда фон трогать нельзя</h2>
+<p class="lead">Вы закрашиваете кистью только область дефекта. Всё остальное изображение модель физически не может изменить.</p>
+<div class="tblwrap"><table>
+<thead><tr><th>Параметр</th><th>Значение</th><th>Что делает</th></tr></thead>
+<tbody>
+<tr><td class="mname">image</td><td>файл обязательно</td><td>Исходное изображение, которое правим</td></tr>
+<tr><td class="mname">mask</td><td>файл, тот же размер</td><td>Чёрно-белая маска. <strong>Чёрное сохраняется, белое перерисовывается</strong></td></tr>
+<tr><td class="mname">prompt</td><td>текст обязательно</td><td>Что именно должно оказаться в замаскированной области</td></tr>
+<tr><td class="mname">steps</td><td>15–50, по умолчанию 50</td><td>Больше шагов — мельче детали, но дольше генерация</td></tr>
+<tr><td class="mname">guidance</td><td>1.5–100, по умолчанию 60</td><td>Баланс между точностью промпта и качеством картинки. Больше — ближе к промпту, но может ухудшить картинку</td></tr>
+<tr><td class="mname">outpaint</td><td>None / Zoom out / Left / Right и др.</td><td>Быстрое расширение холста. Маска при этом игнорируется</td></tr>
+</tbody></table></div>
+<div class="card">
+<strong>Цена и скорость.</strong> FLUX Fill Pro — $0.05 за изображение на Replicate, около 8 секунд генерации. Учитывайте: маска — не бесплатный способ, но она единственная, которая даёт гарантию неизменности фона.
+</div>
+<p class="prompt-lbl">Пример промпта для маски:</p>
+<div class="prompt">Ровная вышивка логотипа на мыске носка, цвет бренда,
+мелкий шов, читаемые буквы, та же толщина нити, что и на втором носке</div>
+<div class="card good">
+<strong>Лайфхак с маской.</strong> Не закрашивайте область больше, чем нужно, и оставляйте между правкой и краем изделия несколько пикселей исходной картинки. Модель лучше сращивает новое с настоящим, если видит границу нетронутого оригинала.
+</div>
+</section>
+
+<section>
+<h2>3. По референсам — сохранить стиль бренда</h2>
+<p class="lead">Подаёте фотографии-эталоны и говорите, что сделать на их основе. Модель берёт стиль, цветовую гамму и фактуру из референсов.</p>
+<div class="tblwrap"><table>
+<thead><tr><th>Модель</th><th>Сколько референсов</th><th>Цена</th><th>Особенность</th></tr></thead>
+<tbody>
+<tr class="pick"><td class="mname">FLUX 3 Image <span class="new-badge">новое</span><div class="mid">black-forest-labs/flux-3-image</div></td><td>до 10</td><td class="price">768px — $0.0205<br>1K — $0.024<br>2K — $0.05<br>4K — $0.3035</td><td>Текущее поколение. Умеет и генерировать, и править. Референсы до 16 Мп включены без доплаты</td></tr>
+<tr class="pick"><td class="mname">Nano Banana Pro<div class="mid">fal.ai</div></td><td>до 14</td><td class="price">$0.15</td><td>Больше всего референсов. 4K, режим размышления перед отрисовкой</td></tr>
+<tr><td class="mname">FLUX.2 Pro</td><td>до 8</td><td class="price">от $0.012</td><td>Дешевле всех. JSON-промптинг для точного контроля камеры и света</td></tr>
+<tr><td class="mname">FLUX.2 Max</td><td>до 8</td><td class="price">выше Pro</td><td>Контроль цвета по HEX-кодам — когда важно попасть в конкретный оттенок бренда</td></tr>
+</tbody></table></div>
+<p class="prompt-lbl">Пример для повторения изделия в другом цвете:</p>
+<div class="prompt">Возьми изделие с референсных изображений.
+Перекраси основной цвет изделия из тёмно-синего в терракотовый.
+Сохрани без изменений: фактуру ткани, вязку, форму, вышивку, пропорции и освещение.</div>
+<div class="card">
+<strong>Что давать в референсы.</strong> Лучше всего работают 2–4 изображения: изделие в разных цветах, один и тот же ракурс, крупный план фактуры. Разнобойные ракурсы и освещение сбивают модель с нужного вида изделия.
+</div>
+</section>
+
+<section>
+<h2>4. Служебные инструменты — финальная доводка</h2>
+<div class="tblwrap"><table>
+<thead><tr><th>Задача</th><th>Инструмент</th><th>Цена</th><th>Когда применять</th></tr></thead>
+<tbody>
+<tr><td class="mname">Повышение разрешения</td><td>Topaz Image Upscale <span class="free-badge">бесплатно</span></td><td class="price">бесплатно</td><td>Изображение не проходит требование площадки к размеру. Запускайте в конце, после всех правок</td></tr>
+<tr><td class="mname">Замена фона</td><td>Bria RMBG 2.0</td><td class="price">$0.018</td><td>Нужен чистый белый или однотонный фон по требованиям маркетплейса</td></tr>
+<tr><td class="mname">Ремонт лица</td><td>CodeFormer <span class="free-badge">бесплатно</span><br>GFPGAN <span class="free-badge">бесплатно</span></td><td class="price">бесплатно</td><td>Искажены пальцы, кисти, лицо. Отдельный проход поверх готовой картинки</td></tr>
+</tbody></table></div>
+</section>
+
+<section>
+<h2>5. По глубине и контуру — сложная фактура</h2>
+<p class="lead">Обычная правка здесь ломается: у рельефной ткани или плетёнки «плывёт» объём. Эти две модели решают именно это.</p>
+<div class="grid">
+<div class="mini"><h4>FLUX Depth Pro</h4><p>Видит объём и сохраняет пространственные relationships при правке. Подходит для вязки, рельефа, складок ткани</p></div>
+<div class="mini"><h4>FLUX Canny Pro</h4><p>Держит чёткие границы и композицию. Когда важно не сдвинуть контур изделия — кромка носка, геометрия узора</p></div>
+</div>
+<p class="prompt-lbl">Пример для рельефной ткани:</p>
+<div class="prompt">Замени дефектный участок на резинке, сохранив объём
+и рельеф вязки — она должна выглядеть так же, как на остальной паре.</div>
+</section>
+
+<section>
+<h2>Проверка результата — чек-лист</h2>
+<p class="lead">Прогоняйте по этому списку перед тем, как считать картинку готовой.</p>
+<div class="grid">
+<div class="card"><h4 style="margin-top:0">Правка выполнена точечно</h4>
+<ul class="check">
+<li>Изменён только дефект, а не картинка целиком</li>
+<li>Фон вокруг правки не изменился</li>
+<li>Цвет и фактура правки совпадают с окружением</li>
+<li>Текст и логотип не «поплыли»</li>
+<li>Изделие осталось узнаваемым</li>
+</ul></div>
+<div class="card"><h4 style="margin-top:0">Готово к публикации</h4>
+<ul class="check">
+<li>Разрешение соответствует требованиям площадки</li>
+<li>Фон чистый, без посторонних объектов</li>
+<li>Пальцы, кисти, лицо не искажены</li>
+<li>Надписи читаются, без артефактов</li>
+<li>Лицензия модели допускает коммерческое использование</li>
+</ul></div>
+</div>
+</section>
+
+<section>
+<h2>Типовые ошибки и что делать</h2>
+<div class="tblwrap"><table>
+<thead><tr><th>Что произошло</th><th>Почему</th><th>Что сделать</th></tr></thead>
+<tbody>
+<tr><td>Картинка изменилась целиком</td><td>В промпте пересказана вся сцена, а не только правка</td><td>Описать только изменение и явно указать, что остальное не трогать</td></tr>
+<tr><td>Три попытки подряд — не то</td><td>Идёт одна и та же модель с одним подходом</td><td><strong>Смените модель, а не повторяйте.</strong> Правка словами не сработала — берите маску</td></tr>
+<tr><td>Логотип стал нечитаемым</td><td>Модель не умеет точный текст в произвольном месте картинки</td><td>Вырезать логотип маской и наложить в Canva, либо генерировать картинку в FLUX.2 Flex</td></tr>
+<tr><td>Видна «нашивка» от маски</td><td>Замаскированная область слишком мала или заходит на границу изделия</td><td>Увеличить область с запасом, не задевая соседние элементы</td></tr>
+<tr><td>Цвет правки отличается от изделия</td><td>Цвет описан словами, модель трактует по-своему</td><td>Перейти на FLUX.2 Max с HEX-кодом — он работает по точному цвету</td></tr>
+<tr><td>Фактура стала «пластиковой»</td><td>Модель не получила образец материала</td><td>Добавить референс крупным планом и описать состав текстом</td></tr>
+<tr><td>Результат резко отличается от оригинала</td><td>Слишком большое количество правок за один проход</td><td>Править по одному элементу за раз, каждый раз сохраняя промежуточный результат</td></tr>
+<tr><td>Руки, пальцы искажены</td><td>Слабое место генеративных моделей</td><td>CodeFormer или GFPGAN отдельным бесплатным проходом</td></tr>
+</tbody></table></div>
+</section>
+
+<section>
+<div class="card alert">
+<strong>О тарифах и лицензиях.</strong> Цены указаны на 22 октября 2026 года и меняются. Лицензия на коммерческое использование зависит от конкретной модели — часть моделей требует проверки условий на странице перед тем, как класть результат в карточку товара. Бесплатные лимиты на Replicate предназначены для теста, а не для регулярной работы.
+</div>
+</section>
+
+</main>
+
+<footer><div class="wrap">
+Раздаточный материал №2 к занятию 2 «Визуал + видео для бренда» · 23 октября 2026<br>
+Цены проверены на страницах моделей <a href="https://replicate.com" target="_blank">replicate.com</a> и <a href="https://fal.ai/pricing" target="_blank">fal.ai</a> · общая карта моделей — в <a href="https://mrvolkomorov.github.io/evgenia-models-guide/" target="_blank">раздатке №1</a>
+</div></footer>
+</body></html>
